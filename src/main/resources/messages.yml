@@ -1,0 +1,24 @@
+tag: '<b>[%plugin%]</b> <reset>'
+
+help:
+  - '<aqua>Помощь по командам:</aqua>'
+  - ''
+  - '<gold>/%alias% help</gold> - Помощь по командам.'
+  - '<gold>/%alias% give [Сумма] [Игрок]</gold> - Выдать валюту игроку.'
+  - '<gold>/%alias% take [Сумма] [Игрок]</gold> - Забрать валюту у игрока.'
+  - '<gold>/%alias% set [Сумма] [Игрок]</gold> - Установить валюту игроку.'
+
+give-usage: '<yellow>Правильное использование:</yellow> <gold>/%alias% give [Сумма] [Игрок]</gold>'
+take-usage: '<yellow>Правильное использование:</yellow> <gold>/%alias% take [Сумма] [Игрок]</gold>'
+set-usage: '<yellow>Правильное использование:</yellow> <gold>/%alias% set [Сумма] [Игрок]</gold>'
+
+not-enough-perms: '<red>У вас недостаточно прав на выполнение данной команды!</red>'
+not-have-money: '<red>У игрока <yellow>%player%</yellow> недостаточно монет!</red>'
+cant-take-negative: '<red>Вы не можете забрать 0 или меньше!</red>'
+cant-add-negative: '<red>Вы не можете добавить 0 или меньше!</red>'
+cant-set-negative: '<red>Вы не можете установить меньше нуля!</red>'
+player-not-found: '<red>Игрока с ником <yellow>%player%</yellow> нет на сервере!</red>'
+
+given: '<green>Вы выдали <yellow>%amount%</yellow><reset> %currency% <green>игроку <yellow>%player%</yellow>!</green>'
+took: '<green>Вы забрали <yellow>%amount%</yellow><reset> %currency% <green>у игрока <yellow>%player%</yellow>!</green>'
+set: '<green>Вы установили <yellow>%amount%</yellow><reset> %currency% <green>игроку <yellow>%player%</yellow>!</green>'

@@ -1,0 +1,15 @@
+name: Currency
+version: '${project.version}'
+main: me.korolkotov.currency.Main
+api-version: '1.20'
+author: KoroLKotov
+
+depend: [Vault]
+
+permissions:
+  money.admin:
+    default: op
+
+commands:
+  money:
+    usage: /money
